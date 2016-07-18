@@ -23,6 +23,8 @@ coverage:
     enabled: true
     whitelist:
         include:
-            - application/*
             - system/*
         exclude:
+            - system/bootstrap.php
+            - system/autoload.php
+            - system/status_header.php

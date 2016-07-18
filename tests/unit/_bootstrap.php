@@ -1,3 +1,4 @@
 <?php
 // Here you can initialize variables that will be available to your tests
-require_once(__DIR__.'/../../system/bootstrap.php');
+$_SERVER['REQUEST_METHOD'] = 'POST';
+require_once(__DIR__.'/../../system/autoload.php');
