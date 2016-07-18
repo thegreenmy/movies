@@ -15,9 +15,9 @@ extensions:
 modules:
     config:
         Db:
-            dsn: ''
-            user: ''
-            password: ''
+            dsn: 'localhost'
+            user: 'root'
+            password: 'nishchal11'
             dump: tests/_data/dump.sql
 coverage:
     enabled: true
